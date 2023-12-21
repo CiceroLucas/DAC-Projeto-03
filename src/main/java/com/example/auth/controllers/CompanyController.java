@@ -19,12 +19,12 @@ public class CompanyController {
     @Autowired
     private CompanyRepository companyRepository;
 
-    @GetMapping("/")
+    @GetMapping
     public List<Empresa> listarEmpresas() {
         return companyRepository.findAll();
     }
 
-    @PostMapping("/create")
+    @PostMapping
     public String criarEmpresa(@RequestBody Empresa empresa) {
         companyRepository.save(empresa);
 
