@@ -13,7 +13,7 @@ import com.example.auth.domain.empresa.Empresa;
 import com.example.auth.repositories.CompanyRepository;
 
 @RestController
-@RequestMapping("company")
+@RequestMapping("empresa")
 public class CompanyController {
 
     @Autowired

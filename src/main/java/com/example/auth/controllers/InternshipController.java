@@ -9,7 +9,7 @@ import com.example.auth.domain.estagio.Estagio;
 import com.example.auth.repositories.InternshipRepository;
 
 @RestController
-@RequestMapping("internship")
+@RequestMapping("estagio")
 public class InternshipController {
 
     @Autowired
